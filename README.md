@@ -6,4 +6,27 @@ I will leave the link to each challenge and my code on this page.<br/>
 
 ---
 
-- Arrays - DS - [HackerRank](https://www.hackerrank.com/challenges/arrays-ds/problem) - [Solution](https://github.com/Robert1802/HackerRank-DataStructures/blob/master/HackerRank-DataStructures/DataStructures/arrays-ds.cs)
+## Array
+- Arrays - DS - [HackerRank](https://www.hackerrank.com/challenges/arrays-ds/problem) - [Solution](https://github.com/Robert1802/HackerRank-DataStructures/blob/master/HackerRank-DataStructures/DataStructures/Arrays/arrays-ds.cs)
+- Dynamic Array - [HackerRank](https://www.hackerrank.com/challenges/dynamic-array/problem) - [Solution](https://github.com/Robert1802/HackerRank-DataStructures/blob/master/HackerRank-DataStructures/DataStructures/Arrays/dynamic-array.cs)
+- Left Rotation - [HackerRank](https://www.hackerrank.com/challenges/array-left-rotation/problem) - [Solution](https://github.com/Robert1802/HackerRank-DataStructures/blob/master/HackerRank-DataStructures/DataStructures/Arrays/array-left-rotation.cs)
+
+## Linked Lists
+
+## Trees
+
+## Balanced Trees
+
+## Stacks
+
+## Queues
+
+## Heap
+
+## Disjoint Set
+
+## Multiple Choice
+
+## Trie
+
+## Advanced
