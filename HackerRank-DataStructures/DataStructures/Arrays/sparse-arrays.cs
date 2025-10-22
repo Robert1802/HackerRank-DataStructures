@@ -20,17 +20,50 @@ namespace HackerRank_DataStructures.DataStructures.Arrays
 
         public static List<int> matchingStrings(List<string> stringList, List<string> queries)
         {
-            List<int> returnArray = new();
+            // Solution 1
 
-            for (int i = 0; i < queries.Count(); i++)
+            //List<int> returnArray = new();
+
+            //for (int i = 0; i < queries.Count(); i++)
+            //{
+            //    int instances = 0;
+            //    instances = stringList.FindAll(item => item == queries[i]).Count();
+            //    returnArray.Add(instances);
+            //}
+
+            //return returnArray;
+
+            // Solution 2
+
+            Dictionary<string, int> frequency = new Dictionary<string, int>();
+
+            foreach (string str in stringList)
             {
-                int instances = 0;
-                instances = stringList.FindAll(item => item == queries[i]).Count();
-                returnArray.Add(instances);
+                if (frequency.ContainsKey(str))
+                {
+                    frequency[str]++;
+                }
+                else
+                {
+                    frequency.Add(str, 1);
+                }
             }
 
-            return returnArray;
-        }
+            List<int> result = new List<int>();
 
+            foreach (string query in queries)
+            {
+                if (frequency.ContainsKey(query))
+                {
+                    result.Add(frequency[query]);
+                }
+                else
+                {
+                    result.Add(0);
+                }
+            }
+
+            return result;
+        }
     }
 }
